@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #26284e;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 550px; /* กำหนดความกว้างของรูปภาพ */
+    height: 550px;; /* ทำให้ความสูงปรับอัตโนมัติตามอัตราส่วน */
+    margin-right: 20px; /* ระยะห่างระหว่างรูปภาพและข้อความ */
+}
+
+
+.text-container {
+    text-align: left;
+}
+
+h2 {
+    color: #d43242;
+}
+
+p {
+    color: #ffffff;
+}
